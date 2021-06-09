@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+
+}
+
+h3{
+    border:  1px solid black;
+    font-family: Snell Roundhand, cursive;
+    float: right;
+    margin: 0px;
+    width: 100px;
+    line-height: 30px;
+    text-align: center;
+}
+h3#chicken{
+    background-color: pink;
+}
+h3#beef{
+    background-color: red;
+}
+h3#sushi{
+    background-color: yellow;
+}
+
+p{
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    clear: right;
+    font-family: Snell Roundhand, cursive;
+}
+
+.section {
+    background-color: gray;
+    border: solid 1px black;
+    float: left;
+    margin: 1%;
+}
+
+@media (min-width: 992px)  {
+    .col-lg{
+        width: 31.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)  {
+    .col-md{
+        width: 48%;
+    }
+}
+
+@media (max-width: 767px)  {
+    .col-sm{
+        width: 98%;
+    }
+}
